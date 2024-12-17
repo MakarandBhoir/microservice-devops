@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!-- Console Appender (optional) -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Rolling File Appender -->
+    <appender name="ROLLING" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <!-- The log file location and name -->
+        <file>logs/spring-boot-eureka.log</file>
+        
+        <!-- Roll Over based on size -->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <!-- The rolling policy defines the pattern for the file name -->
+            <fileNamePattern>logs/spring-boot-eureka-%d{yyyy-MM-dd}-%i.log</fileNamePattern>
+            
+            <!-- Max size of each log file before rolling over -->
+            <maxFileSize>1MB</maxFileSize>
+            
+            <!-- The maximum number of backup files to keep -->
+            <maxHistory>30</maxHistory>
+
+            <!-- Set to true to delete older files -->
+            <cleanHistoryOnStart>true</cleanHistoryOnStart>
+        </rollingPolicy>
+
+        <!-- Log encoding pattern -->
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} - %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Root Logger Configuration -->
+    <root level="INFO">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="ROLLING" />
+    </root>
+
+    <!-- Logger Configuration for specific packages (optional) -->
+    <logger name="org.springframework.cloud.netflix.eureka" level="DEBUG" />
+    <logger name="com.synechron" level="INFO" />
+</configuration>

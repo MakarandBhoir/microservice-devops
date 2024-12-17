@@ -1,0 +1,212 @@
+2024-12-16 19:35:07 - Starting EurekaApplication using Java 21.0.3 with PID 10788 (D:\Training\Synechron\Batch 2\Artifact\SpringBoot Microservice\Workspace\04-eureka-server\target\classes started by Makarand in D:\Training\Synechron\Batch 2\Artifact\SpringBoot Microservice\Workspace\04-eureka-server)
+2024-12-16 19:35:07 - No active profile set, falling back to 1 default profile: "default"
+2024-12-16 19:35:09 - BeanFactory id=01da308c-1e47-3848-a469-a20382719ac2
+2024-12-16 19:35:09 - Tomcat initialized with port 8761 (http)
+2024-12-16 19:35:09 - Initializing ProtocolHandler ["http-nio-8761"]
+2024-12-16 19:35:09 - Starting service [Tomcat]
+2024-12-16 19:35:09 - Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-16 19:35:09 - Initializing Spring embedded WebApplicationContext
+2024-12-16 19:35:09 - Root WebApplicationContext: initialization completed in 2619 ms
+2024-12-16 19:35:10 - Filter 'eurekaVersionFilterRegistration' configured for use
+2024-12-16 19:35:11 - Using JSON encoding codec LegacyJacksonJson
+2024-12-16 19:35:11 - Using JSON decoding codec LegacyJacksonJson
+2024-12-16 19:35:11 - Using XML encoding codec XStreamXml
+2024-12-16 19:35:11 - Using XML decoding codec XStreamXml
+2024-12-16 19:35:12 - Constructed eureka meta-data healthcheckUrl: http://Maitri:8761/actuator/health
+2024-12-16 19:35:12 - Constructed eureka meta-data statusPageUrl: http://Maitri:8761/actuator/info
+2024-12-16 19:35:13 - Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2024-12-16 19:35:13 - Setting initial instance status as: STARTING
+2024-12-16 19:35:13 - Initializing Eureka in region us-east-1
+2024-12-16 19:35:13 - Client configured to neither register nor query for data.
+2024-12-16 19:35:13 - Discovery Client initialized at timestamp 1734357913098 with initial instances count: 0
+2024-12-16 19:35:13 - Initializing ...
+2024-12-16 19:35:13 - Adding new peer nodes [http://localhost:8761/eureka/]
+2024-12-16 19:35:13 - Using JSON encoding codec LegacyJacksonJson
+2024-12-16 19:35:13 - Using JSON decoding codec LegacyJacksonJson
+2024-12-16 19:35:13 - Using XML encoding codec XStreamXml
+2024-12-16 19:35:13 - Using XML decoding codec XStreamXml
+2024-12-16 19:35:13 - Replica node URL:  http://localhost:8761/eureka/
+2024-12-16 19:35:13 - Finished initializing remote region registries. All known remote regions: []
+2024-12-16 19:35:13 - Initialized
+2024-12-16 19:35:13 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-16 19:35:13 - Registering application 04-EUREKA-SERVER with eureka with status UP
+2024-12-16 19:35:13 - Starting ProtocolHandler ["http-nio-8761"]
+2024-12-16 19:35:13 - isAws returned false
+2024-12-16 19:35:13 - Initialized server context
+2024-12-16 19:35:13 - Got 1 instances from neighboring DS node
+2024-12-16 19:35:13 - Renew threshold is: 1
+2024-12-16 19:35:13 - Changing status to UP
+2024-12-16 19:35:13 - Started Eureka Server
+2024-12-16 19:35:13 - Tomcat started on port 8761 (http) with context path '/'
+2024-12-16 19:35:13 - Updating port to 8761
+2024-12-16 19:35:13 - Started EurekaApplication in 7.525 seconds (process running for 8.569)
+2024-12-16 19:36:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:37:11 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-16 19:37:11 - Initializing Servlet 'dispatcherServlet'
+2024-12-16 19:37:11 - Completed initialization in 2 ms
+2024-12-16 19:37:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:37:50 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 with status UP (replication=false)
+2024-12-16 19:37:50 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:37:50 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 with status UP (replication=true)
+2024-12-16 19:37:50 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:37:51 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 with status DOWN (replication=false)
+2024-12-16 19:37:51 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:37:51 - Cancelled instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 (replication=false)
+2024-12-16 19:37:51 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:37:51 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:37:51 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 with status DOWN (replication=true)
+2024-12-16 19:37:51 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:37:51 - Cancelled instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 (replication=true)
+2024-12-16 19:37:51 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:37:51 - cancelled COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:38:13 - Running the evict task with compensationTime 14ms
+2024-12-16 19:38:16 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 with status UP (replication=false)
+2024-12-16 19:38:16 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:38:16 - Registered instance COURSE-MICROSERVICE/Maitri:course-microservice:9004 with status UP (replication=true)
+2024-12-16 19:38:16 - registered COURSE-MICROSERVICE, vip course-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:38:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:38:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:39:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:39:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:39:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:39:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:39:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:40:05 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status UP (replication=false)
+2024-12-16 19:40:05 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:40:05 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status UP (replication=true)
+2024-12-16 19:40:05 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:40:13 - Running the evict task with compensationTime 11ms
+2024-12-16 19:40:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:40:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:40:34 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:40:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:40:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:40:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:41:04 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:41:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:41:08 - Registered instance API-GATEWAY/Maitri:api-gateway:8081 with status UP (replication=false)
+2024-12-16 19:41:08 - registered API-GATEWAY, vip api-gateway, leaseDuration 90, isReplication false
+2024-12-16 19:41:09 - Registered instance API-GATEWAY/Maitri:api-gateway:8081 with status UP (replication=true)
+2024-12-16 19:41:09 - registered API-GATEWAY, vip api-gateway, leaseDuration 90, isReplication true
+2024-12-16 19:41:10 - Registered instance API-GATEWAY/Maitri:api-gateway:8081 with status DOWN (replication=false)
+2024-12-16 19:41:10 - registered API-GATEWAY, vip api-gateway, leaseDuration 90, isReplication false
+2024-12-16 19:41:10 - Registered instance API-GATEWAY/Maitri:api-gateway:8081 with status DOWN (replication=true)
+2024-12-16 19:41:10 - registered API-GATEWAY, vip api-gateway, leaseDuration 90, isReplication true
+2024-12-16 19:41:13 - Cancelled instance API-GATEWAY/Maitri:api-gateway:8081 (replication=false)
+2024-12-16 19:41:13 - cancelled API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:41:13 - cancelled API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:41:13 - Running the evict task with compensationTime 13ms
+2024-12-16 19:41:13 - DS: Registry: cancel failed because Lease is not registered for: API-GATEWAY/Maitri:api-gateway:8081
+2024-12-16 19:41:13 - Not Found (Cancel): API-GATEWAY - Maitri:api-gateway:8081
+2024-12-16 19:41:13 - The replication of task API-GATEWAY/Maitri:api-gateway:8081:Cancel@localhost failed with response code 404
+2024-12-16 19:41:13 - API-GATEWAY/Maitri:api-gateway:8081:Cancel@localhost: missing entry.
+2024-12-16 19:41:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:41:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:41:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:41:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:41:38 - Registered instance API-GATEWAY/Maitri:api-gateway:8081 with status UP (replication=false)
+2024-12-16 19:41:38 - registered API-GATEWAY, vip api-gateway, leaseDuration 90, isReplication false
+2024-12-16 19:41:38 - Registered instance API-GATEWAY/Maitri:api-gateway:8081 with status UP (replication=true)
+2024-12-16 19:41:38 - registered API-GATEWAY, vip api-gateway, leaseDuration 90, isReplication true
+2024-12-16 19:41:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:41:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:42:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:42:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:42:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:42:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:42:13 - Running the evict task with compensationTime 14ms
+2024-12-16 19:42:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:42:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:42:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:42:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:42:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:42:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:42:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:42:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:43:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:43:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:43:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:43:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:43:13 - Running the evict task with compensationTime 15ms
+2024-12-16 19:43:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:43:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:43:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:43:35 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:43:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:43:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:43:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:43:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:44:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:44:05 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:44:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:44:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:44:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:44:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:44:17 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:44:30 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status DOWN (replication=false)
+2024-12-16 19:44:30 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:44:31 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status DOWN (replication=true)
+2024-12-16 19:44:31 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:44:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:44:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:44:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:44:47 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:45:02 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status UP (replication=false)
+2024-12-16 19:45:02 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:45:03 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status UP (replication=true)
+2024-12-16 19:45:03 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:45:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:45:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:45:13 - Running the evict task with compensationTime 9ms
+2024-12-16 19:45:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:45:17 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:45:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:45:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:45:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:45:47 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:46:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:46:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:46:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:46:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:46:17 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:46:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:46:39 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:46:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:46:47 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:47:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:47:09 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:47:13 - Running the evict task with compensationTime 14ms
+2024-12-16 19:47:13 - Evicting 1 items (expired=1, evictionLimit=1)
+2024-12-16 19:47:13 - DS: Registry: expired lease for STUDENT-MICROSERVICE/Maitri:student-microservice:9094
+2024-12-16 19:47:13 - Cancelled instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 (replication=false)
+2024-12-16 19:47:13 - cancelled STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:47:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:47:17 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:47:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:47:39 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:47:46 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:47:47 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:47:55 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status UP (replication=false)
+2024-12-16 19:47:55 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication false
+2024-12-16 19:47:55 - Registered instance STUDENT-MICROSERVICE/Maitri:student-microservice:9094 with status UP (replication=true)
+2024-12-16 19:47:55 - registered STUDENT-MICROSERVICE, vip student-microservice, leaseDuration 90, isReplication true
+2024-12-16 19:48:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:48:09 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:48:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:48:16 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication false
+2024-12-16 19:48:17 - renewed COURSE-MICROSERVICE, serverId Maitri:course-microservice:9004, isReplication true
+2024-12-16 19:48:24 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:48:25 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:48:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:48:39 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:48:55 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:48:55 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:49:08 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:49:09 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:49:13 - Running the evict task with compensationTime 0ms
+2024-12-16 19:49:25 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:49:25 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
+2024-12-16 19:49:38 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication false
+2024-12-16 19:49:39 - renewed API-GATEWAY, serverId Maitri:api-gateway:8081, isReplication true
+2024-12-16 19:49:55 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication false
+2024-12-16 19:49:55 - renewed STUDENT-MICROSERVICE, serverId Maitri:student-microservice:9094, isReplication true
