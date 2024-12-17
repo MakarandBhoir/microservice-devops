@@ -1,6 +1,5 @@
-
-drop table studentdb.student;
-drop table studentdb.studentcourses;
+DROP TABLE IF EXISTS Student;
+DROP TABLE IF EXISTS StudentCourses;
 
 Create Table Student
  (
@@ -19,7 +18,6 @@ Create Table StudentCourses
 	Student_Id Int
 );
 
-
 INSERT INTO Student (Student_Id, Student_Name, Student_Score, City, State, Pin)
 VALUES (1, 'Makarand Bhoir', 60, 'Mumbai', 'Maharashtra', '400706');
 
@@ -28,9 +26,6 @@ VALUES (2, 'Mahesh Shinde', 87, 'Pune', 'Maharashtra', '411224');
 
 INSERT INTO Student (Student_Id, Student_Name, Student_Score, City, State, Pin)
 VALUES (3, 'Gaurav Gupta', 50, 'Mumbai', 'Maharashtra', '400059');
-
-INSERT INTO Student (Student_Id, Student_Name, Student_Score, City, State, Pin)
-VALUES (4, 'Test', 40, 'Mumbai', 'Maharashtra', '400059');
 
 INSERT INTO StudentCourses(Course_Id, Course_Name, Course_Fees, Student_Id)
 VALUES(1111, 'Java', 20000, 1);

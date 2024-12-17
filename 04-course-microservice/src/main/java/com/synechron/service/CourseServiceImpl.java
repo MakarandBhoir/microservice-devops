@@ -12,10 +12,10 @@ public class CourseServiceImpl implements CourseService {
 	private List<Course> dummyDatabase = new ArrayList<>();
 	
 	public CourseServiceImpl() {
-		dummyDatabase.add(new Course(1, "Java", 20000, 1));
-		dummyDatabase.add(new Course(2, "DevOps", 30000, 1));
-		dummyDatabase.add(new Course(3, "Python", 20000, 2));
-		dummyDatabase.add(new Course(4, "Angular", 15000, 3));
+		dummyDatabase.add(new Course(1, "Java", 20000, 101));
+		dummyDatabase.add(new Course(2, "DevOps", 30000, 101));
+		dummyDatabase.add(new Course(3, "Python", 20000, 102));
+		dummyDatabase.add(new Course(4, "Angular", 15000, 103));
 	}
 	@Override
 	public List<Course> findCoursesByStudentId(int studentId) {

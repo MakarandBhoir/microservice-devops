@@ -19,11 +19,10 @@ public class CourseRestController {
 	@Autowired
 	Environment env;
 	
-	// http://localhost:9094/courses/student/1
+	// http://localhost:9094/courses/student/101
 	@GetMapping("/courses/student/{studentId}")
 	public List<Course> getCoursesByStudentId(@PathVariable("studentId") int studentId) {
-//		System.out.println("Port: " + env.getProperty("local.server.port"));
-		System.out.println(env.getProperty("local.server.port"));
+		System.out.println("Port: " + env.getProperty("local.server.port"));
 		return courseService.findCoursesByStudentId(studentId);
 	}
 }

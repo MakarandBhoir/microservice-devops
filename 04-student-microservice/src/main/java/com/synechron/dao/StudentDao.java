@@ -2,10 +2,10 @@ package com.synechron.dao;
 
 import java.util.List;
 
+import com.synechron.entities.Course;
+import com.synechron.entities.Student;
 import com.synechron.exceptions.DuplicateStudentException;
 import com.synechron.exceptions.StudentNotFoundException;
-import com.synechron.model.Course;
-import com.synechron.model.Student;
 
 public interface StudentDao {
 	public int createStudent(Student student)throws DuplicateStudentException;

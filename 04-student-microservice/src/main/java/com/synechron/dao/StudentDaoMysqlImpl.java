@@ -14,8 +14,8 @@ import com.synechron.exceptions.DuplicateStudentException;
 import com.synechron.exceptions.StudentNotFoundException;
 
 @Repository
-@Profile("dev")
-public class StudentDaoH2Impl implements StudentDao {
+@Profile("prod")
+public class StudentDaoMysqlImpl implements StudentDao {
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
 
