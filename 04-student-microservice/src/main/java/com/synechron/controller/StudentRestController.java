@@ -15,6 +15,7 @@ import com.synechron.exceptions.StudentNotFoundException;
 import com.synechron.feignproxy.CourseServiceProxy;
 import com.synechron.service.StudentService;
 
+import io.github.resilience4j.bulkhead.annotation.Bulkhead;
 import io.github.resilience4j.circuitbreaker.annotation.CircuitBreaker;
 import io.github.resilience4j.ratelimiter.annotation.RateLimiter;
 
@@ -38,6 +39,7 @@ public class StudentRestController {
 	@GetMapping("/students/{studentId}")
 	@CircuitBreaker(name = "courseServiceCircuitBreaker", fallbackMethod = "dummyCourseData")
 	@RateLimiter(name="courseServiceRateLimiter", fallbackMethod = "ratelimiterfallback")
+	@Bulkhead(name = "courseServiceBulkhead")
 	public Student getStudentById(@PathVariable("studentId") Integer studentId) throws StudentNotFoundException {
 		Student student = studentService.findStudentById(studentId);
 		System.out.println("---- calling course service = "+ ++count +" ----");

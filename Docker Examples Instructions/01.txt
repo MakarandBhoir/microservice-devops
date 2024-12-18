@@ -1,0 +1,8 @@
+Docker demo 1
+Running a new container in deamon mode (detached). The following container would be listening on port 80.
+
+$ docker run -d --name w1 --rm  -p 8080:80 nginx
+$ curl http://localhost:8080
+$ docker logs w1
+$ docker ps
+$ docker stop w1

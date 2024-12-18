@@ -1,0 +1,19 @@
+Docker demo 5
+Extend the Container Image by using Docker commit.
+
+Create a container (instance)
+Use "docker exec" to make necessary
+use "docker commit" to save as NEW image
+delete the container instance
+docker run -d --name w1 nginx:1.13.0
+docker exec -it w1 bash
+cd /usr/share/nginx/html
+echo "<h1>Hello World</h1>" > index.html
+exit
+docker commit w1 testapp
+docker stop w1
+docker rm w1
+The changes are stored as a NEW LAYER on top of existing set of layers and given a new image name "testapp"
+
+TEST IT
+docker run -d --name w2 -p 8080:80 testapp
