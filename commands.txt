@@ -1,0 +1,1 @@
+docker run --name mysql-container -p 3306:3306 -e MYSQL_ROOT_PASSWORD=makarand -e MYSQL_DATABASE=studentdb -e MYSQL_USER=makarand -e MYSQL_PASSWORD=makarand -d mysql
