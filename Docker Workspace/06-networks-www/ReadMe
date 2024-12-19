@@ -1,0 +1,6 @@
+1. Build image using following command
+	sudo docker build -t docker-www .
+
+2. Create container and run container 
+	sudo docker run -p 8080:3000 --rm --name docker-www-container docker-www
+    
