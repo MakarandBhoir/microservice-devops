@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod-volume1
+  labels:
+    name: pod-volume1
+spec:
+  volumes:
+    - name: vol1
+      hostPath:
+          path: /home/makarand/mydata
+
+  containers:
+  - name: myapp
+    image: bhoirmakarand/nginx
+    volumeMounts:
+      - name: vol1
+        mountPath: "/data"
+        readOnly: false
+    resources:
+      limits:
+        memory: "64Mi"
+        cpu: "100m"
+    ports:
+      - containerPort: 80

@@ -1,0 +1,22 @@
+# following three lines provide META-DATA for current object
+apiVersion: v1  # k8s API version
+kind: Pod       # Type pf OBJECT this file manages/deploys
+metadata:
+  name: pod1    # Unique name for this object
+  labels:       # Optional labels (User defined key/value pairs)
+    name: web1
+  
+# The actual object (POD) definition 
+spec:
+  containers:   # list of containers (now SINGLE)
+  # start of first (and only container)
+  - name: web1  # name for container
+    image: bhoirmakarand/webgame:latest  # container image from my 
+    # Optional resource contraints
+    resources:
+      limits:
+        memory: "64Mi"
+        cpu: "100m"
+    # application port (webgame uses 8080)
+    ports:
+      - containerPort: 8080
